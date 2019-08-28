@@ -23,6 +23,11 @@ class NetworkManager {
         
         var finalPayload = payload
         finalPayload["apiKey"] = getAPIKey()
+        performRequest(forUrl: self.getURL(forEndPoint: type, payload: finalPayload), requestType: "GET", success: { data in
+            success(data)
+        }) { error in
+            failure(error)
+        }
         
          
     }
@@ -46,11 +51,11 @@ class NetworkManager {
     }
     
     fileprivate func getAPIKey() -> String {
-        var nsDictionary: NSDictionary?
+        var plistDict: NSDictionary?
         if let path = Bundle.main.path(forResource: "NewsApi", ofType: "plist") {
-            nsDictionary = NSDictionary(contentsOfFile: path)
+            plistDict = NSDictionary(contentsOfFile: path)
         }
-        return nsDictionary?.object(forKey: "APIKey") as! String
+        return plistDict?.object(forKey: "APIKey") as! String
     }
     
     func getURL(forEndPoint type: BJNewsAPIEndPoint, payload : [String : String]) -> String {
