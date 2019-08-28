@@ -12,6 +12,8 @@
 		9D0D00AC23169ABF00388252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D0D00AA23169ABF00388252 /* Main.storyboard */; };
 		9D0D00AE23169AC000388252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D0D00AD23169AC000388252 /* Assets.xcassets */; };
 		9D0D00B123169AC000388252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D0D00AF23169AC000388252 /* LaunchScreen.storyboard */; };
+		9D0D00B92316A01700388252 /* NewsApi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D0D00B82316A01700388252 /* NewsApi.plist */; };
+		9D0D00BB2316A07300388252 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0D00BA2316A07300388252 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9D0D00AD23169AC000388252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D0D00B023169AC000388252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D0D00B223169AC000388252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D0D00B82316A01700388252 /* NewsApi.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = NewsApi.plist; sourceTree = "<group>"; };
+		9D0D00BA2316A07300388252 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				9D0D00AD23169AC000388252 /* Assets.xcassets */,
 				9D0D00AF23169AC000388252 /* LaunchScreen.storyboard */,
 				9D0D00B223169AC000388252 /* Info.plist */,
+				9D0D00B82316A01700388252 /* NewsApi.plist */,
+				9D0D00BA2316A07300388252 /* NetworkManager.swift */,
 			);
 			path = BJNewsApp;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				9D0D00B123169AC000388252 /* LaunchScreen.storyboard in Resources */,
 				9D0D00AE23169AC000388252 /* Assets.xcassets in Resources */,
+				9D0D00B92316A01700388252 /* NewsApi.plist in Resources */,
 				9D0D00AC23169ABF00388252 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D0D00BB2316A07300388252 /* NetworkManager.swift in Sources */,
 				9D0D00A923169ABF00388252 /* ViewController.swift in Sources */,
 				9D0D00A723169ABF00388252 /* AppDelegate.swift in Sources */,
 			);
