@@ -22,21 +22,27 @@ class ArticleCell: UITableViewCell {
         super.awakeFromNib()
         
         let gradient = CAGradientLayer()
-        gradient.frame = gradientView.bounds
+        gradient.frame = newsImageView.bounds
         gradient.colors = [
             UIColor.init(white: 0, alpha: 0).cgColor,
+            UIColor.black.cgColor,
             UIColor.black.cgColor
         ]
-        gradientView.backgroundColor = .clear
-        gradientView.layer.insertSublayer(gradient, at: 0)
+        newsImageView.backgroundColor = .clear
+        newsImageView.layer.insertSublayer(gradient, at: 0)
+        
+        gradientView.layer.cornerRadius = 3.0
+        gradientView.layer.masksToBounds = true
         
     }
     
     func configureCell(forNews newsArticle : NewsModel) {
-        self.news = newsArticle
-        self.titleLabel.text = news?.title
-        self.sourceLabel.text = news?.source
-        self.dateLabel.text = news?.publishedAt
-        
+        news = newsArticle
+        titleLabel.text = news?.title
+        sourceLabel.text = news?.source
+        dateLabel.text = news?.publishedAt
+        if let imageUrl = news?.urlToImage {
+            newsImageView.loadImageUsingCache(withUrl: imageUrl)
+        }
     }
 }
