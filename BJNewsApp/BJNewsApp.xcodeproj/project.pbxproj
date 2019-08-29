@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9D0D00A723169ABF00388252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0D00A623169ABF00388252 /* AppDelegate.swift */; };
-		9D0D00A923169ABF00388252 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0D00A823169ABF00388252 /* ViewController.swift */; };
 		9D0D00AC23169ABF00388252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D0D00AA23169ABF00388252 /* Main.storyboard */; };
 		9D0D00AE23169AC000388252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D0D00AD23169AC000388252 /* Assets.xcassets */; };
 		9D0D00B123169AC000388252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D0D00AF23169AC000388252 /* LaunchScreen.storyboard */; };
@@ -24,12 +23,12 @@
 		9D5C06F42317BEB200C94405 /* RobotoSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D5C06F02317BEB200C94405 /* RobotoSlab-Light.ttf */; };
 		9D5C06F52317BEB200C94405 /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D5C06F12317BEB200C94405 /* RobotoSlab-Regular.ttf */; };
 		9D5C06F72317C5EC00C94405 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C06F62317C5EC00C94405 /* UIImageViewExtension.swift */; };
+		9D5C06F92317E1DC00C94405 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5C06F82317E1DC00C94405 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9D0D00A323169ABF00388252 /* BJNewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BJNewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D0D00A623169ABF00388252 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D0D00A823169ABF00388252 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9D0D00AB23169ABF00388252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D0D00AD23169AC000388252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D0D00B023169AC000388252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,6 +45,7 @@
 		9D5C06F02317BEB200C94405 /* RobotoSlab-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Light.ttf"; sourceTree = "<group>"; };
 		9D5C06F12317BEB200C94405 /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
 		9D5C06F62317C5EC00C94405 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		9D5C06F82317E1DC00C94405 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,6 @@
 			children = (
 				9D5C06E12317BE3800C94405 /* Fonts */,
 				9D0D00A623169ABF00388252 /* AppDelegate.swift */,
-				9D0D00A823169ABF00388252 /* ViewController.swift */,
 				9D0D00AA23169ABF00388252 /* Main.storyboard */,
 				9D0D00AD23169AC000388252 /* Assets.xcassets */,
 				9D0D00AF23169AC000388252 /* LaunchScreen.storyboard */,
@@ -93,6 +92,7 @@
 				9D5C06DD2317B49900C94405 /* HomeViewViewController.swift */,
 				9D5C06DF2317BCCD00C94405 /* ArticleCell.swift */,
 				9D5C06F62317C5EC00C94405 /* UIImageViewExtension.swift */,
+				9D5C06F82317E1DC00C94405 /* DetailsViewController.swift */,
 			);
 			path = BJNewsApp;
 			sourceTree = "<group>";
@@ -186,9 +186,9 @@
 			files = (
 				9D5C06E02317BCCD00C94405 /* ArticleCell.swift in Sources */,
 				9D0D00BB2316A07300388252 /* NetworkManager.swift in Sources */,
+				9D5C06F92317E1DC00C94405 /* DetailsViewController.swift in Sources */,
 				9D5C06D62317A8DA00C94405 /* ContentManager.swift in Sources */,
 				9D5C06DE2317B49900C94405 /* HomeViewViewController.swift in Sources */,
-				9D0D00A923169ABF00388252 /* ViewController.swift in Sources */,
 				9D5C06F72317C5EC00C94405 /* UIImageViewExtension.swift in Sources */,
 				9D0D00A723169ABF00388252 /* AppDelegate.swift in Sources */,
 				9D5C06D82317A95A00C94405 /* NewsModel.swift in Sources */,

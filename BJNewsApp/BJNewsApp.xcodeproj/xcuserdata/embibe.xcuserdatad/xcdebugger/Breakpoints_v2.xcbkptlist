@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BJNewsApp/ContentManager.swift"
-            timestampString = "588766121.739118"
+            timestampString = "588768518.0553041"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "52"
@@ -26,7 +26,7 @@
                   moduleName = "BJNewsApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/embibe/Documents/My%20Projects/BJNewsApp/BJNewsApp/BJNewsApp/ContentManager.swift"
-                  timestampString = "588761550.346727"
+                  timestampString = "588768542.126513"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "53"
@@ -41,7 +41,7 @@
                   moduleName = "BJNewsApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/embibe/Documents/My%20Projects/BJNewsApp/BJNewsApp/BJNewsApp/ContentManager.swift"
-                  timestampString = "588761550.349278"
+                  timestampString = "588768542.128397"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "54"
@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BJNewsApp/ContentManager.swift"
-            timestampString = "588766121.739198"
+            timestampString = "588768518.055483"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "37"
@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BJNewsApp/NetworkManager.swift"
-            timestampString = "588766121.739256"
+            timestampString = "588768518.05557"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "23"
@@ -90,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BJNewsApp/NetworkManager.swift"
-            timestampString = "588766121.739308"
+            timestampString = "588768518.0556509"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "26"
@@ -106,7 +106,7 @@
                   moduleName = "BJNewsApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/embibe/Documents/My%20Projects/BJNewsApp/BJNewsApp/BJNewsApp/NetworkManager.swift"
-                  timestampString = "588761550.365863"
+                  timestampString = "588768542.138798"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "26"
@@ -121,7 +121,7 @@
                   moduleName = "BJNewsApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/embibe/Documents/My%20Projects/BJNewsApp/BJNewsApp/BJNewsApp/NetworkManager.swift"
-                  timestampString = "588761550.368921"
+                  timestampString = "588768542.140222"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "27"
@@ -138,7 +138,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BJNewsApp/NetworkManager.swift"
-            timestampString = "588766121.739356"
+            timestampString = "588768518.055724"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "37"
@@ -154,12 +154,44 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BJNewsApp/ContentManager.swift"
-            timestampString = "588766121.739403"
+            timestampString = "588768518.055797"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "41"
             endingLineNumber = "41"
             landmarkName = "loadHighLights(forCountry:category:success:failure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BJNewsApp/HomeViewViewController.swift"
+            timestampString = "588768541.0553859"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BJNewsApp/HomeViewViewController.swift"
+            timestampString = "588768556.640887"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

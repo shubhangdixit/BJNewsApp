@@ -70,11 +70,9 @@ class HomeViewViewController: UIViewController, UITableViewDelegate, UITableView
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        if let contact = ContactManager.shared.getContact(withAlphanetIndex: indexPath.section, andContactIndex: indexPath.row) {
-//            if let viewController : ContactDetailViewController = self.storyboard?.instantiateViewController(withIdentifier: "ContactDetailViewController") as? ContactDetailViewController {
-//                viewController.contact = contact
-//                self.navigationController?.pushViewController(viewController, animated: true)
-//            }
-//        }
+        if let viewController : DetailsViewController = self.storyboard?.instantiateViewController(withIdentifier: "DetailsViewController") as? DetailsViewController {
+            viewController.news = ContentManager.shared.newsList[indexPath.row]
+            self.navigationController?.pushViewController(viewController, animated: true)
+        }
     }
 }
