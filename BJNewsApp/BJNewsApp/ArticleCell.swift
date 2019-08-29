@@ -33,7 +33,7 @@ class ArticleCell: UITableViewCell {
         
         gradientView.layer.cornerRadius = 3.0
         gradientView.layer.masksToBounds = true
-        
+        self.selectionStyle = .none
     }
     
     func configureCell(forNews newsArticle : NewsModel) {

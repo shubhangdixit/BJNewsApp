@@ -27,6 +27,7 @@ class NewsModel {
         url = dictionary[jsonKeys.url] as? String
         urlToImage = dictionary[jsonKeys.urlToImage] as? String
         publishedAt = dictionary[jsonKeys.publishedAt] as? String
+        publishedAt = String(publishedAt?.prefix(10) ?? "")
         content = dictionary[jsonKeys.content] as? String
     }
 }

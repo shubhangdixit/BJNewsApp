@@ -10,8 +10,8 @@ import UIKit
 
 class HomeViewViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var topView: UIView!
-    
     @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -23,6 +23,7 @@ class HomeViewViewController: UIViewController, UITableViewDelegate, UITableView
     }
     
     func configureUIforSubViews() {
+        
         view.backgroundColor = UIColor(displayP3Red: 32/255, green: 32/255, blue: 32/255, alpha: 1)
         
         topView.layer.masksToBounds = false
@@ -72,7 +73,7 @@ class HomeViewViewController: UIViewController, UITableViewDelegate, UITableView
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let viewController : DetailsViewController = self.storyboard?.instantiateViewController(withIdentifier: "DetailsViewController") as? DetailsViewController {
             viewController.news = ContentManager.shared.newsList[indexPath.row]
-            self.navigationController?.pushViewController(viewController, animated: true)
+            self.present(viewController, animated: true, completion: nil)
         }
     }
 }

@@ -32,12 +32,13 @@ class DetailsViewController: UIViewController {
             UIColor.init(white: 0, alpha: 0).cgColor,
             UIColor.black.cgColor
         ]
+        
         newsBackgroundImageView.backgroundColor = .clear
         newsBackgroundImageView.layer.insertSublayer(gradient, at: 0)
         
         backButton.layer.cornerRadius = 25
         backButton.layer.masksToBounds = true
-        backButton.imageEdgeInsets = UIEdgeInsets(top: 7, left: 7, bottom: 7, right: 7)
+        backButton.imageEdgeInsets = UIEdgeInsets(top: 15, left: 15, bottom: 15, right: 20)
     }
     
     func loadContent() {
@@ -51,7 +52,7 @@ class DetailsViewController: UIViewController {
     }
 
     @IBAction func backButtonAction(_ sender: Any) {
-        self.navigationController?.popViewController(animated: true)
+        self.dismiss(animated: true, completion: nil)
     }
     
 }
