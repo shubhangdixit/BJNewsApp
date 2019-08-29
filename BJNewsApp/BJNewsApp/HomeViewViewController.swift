@@ -11,11 +11,15 @@ import UIKit
 class HomeViewViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var topView: UIView!
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         configureUIforSubViews()
+        
+        self.view.bringSubviewToFront(activityIndicator)
+        activityIndicator.startAnimating()
         
         tableView.dataSource = self
         tableView.delegate = self
@@ -41,6 +45,7 @@ class HomeViewViewController: UIViewController, UITableViewDelegate, UITableView
         ContentManager.shared.loadHighLights(forCountry: Country.us, category: nil, success: {[weak self] in
             DispatchQueue.main.async {
                 self?.tableView.reloadData()
+                self?.activityIndicator.stopAnimating()
             }
         }) {
             print("loadFailed")
