@@ -65,7 +65,9 @@ class NetworkManager {
             for key in payload.keys {
                 let querry : String = key + "=" + (payload[key] ?? "")
                 urlString += querry
+                urlString += "&"
             }
+            urlString = String(urlString.dropLast())
         }
         return urlString
     }

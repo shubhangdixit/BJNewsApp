@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BJNewsApp/ContentManager.swift"
+            timestampString = "588757553.150787"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "loadHighLights(forCountry:category:success:failure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;) -&gt; () in BJNewsApp.ContentManager.loadHighLights(forCountry: Swift.Optional&lt;BJNewsApp.Country&gt;, category: Swift.Optional&lt;BJNewsApp.Category&gt;, success: () -&gt; (), failure: () -&gt; ()) -&gt; ()"
+                  moduleName = "BJNewsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/embibe/Documents/My%20Projects/BJNewsApp/BJNewsApp/BJNewsApp/ContentManager.swift"
+                  timestampString = "588757553.26483"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "2409">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in BJNewsApp.ContentManager.loadHighLights(forCountry: Swift.Optional&lt;BJNewsApp.Country&gt;, category: Swift.Optional&lt;BJNewsApp.Category&gt;, success: () -&gt; (), failure: () -&gt; ()) -&gt; ()"
+                  moduleName = "BJNewsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/embibe/Documents/My%20Projects/BJNewsApp/BJNewsApp/BJNewsApp/ContentManager.swift"
+                  timestampString = "588757553.274312"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "25">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BJNewsApp/ContentManager.swift"
+            timestampString = "588757553.1512181"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "loadHighLights(forCountry:category:success:failure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BJNewsApp/NetworkManager.swift"
+            timestampString = "588757553.151529"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "getData(forNewsType:payload:success:failure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BJNewsApp/NetworkManager.swift"
+            timestampString = "588757553.151589"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "getData(forNewsType:payload:success:failure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BJNewsApp.NetworkManager.getData(forNewsType: BJNewsApp.BJNewsAPIEndPoint, payload: Swift.Dictionary&lt;Swift.String, Swift.String&gt;, success: (Swift.Optional&lt;Foundation.Data&gt;) -&gt; (), failure: (Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BJNewsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/embibe/Documents/My%20Projects/BJNewsApp/BJNewsApp/BJNewsApp/NetworkManager.swift"
+                  timestampString = "588757553.30507"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "297">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;) -&gt; () in BJNewsApp.NetworkManager.getData(forNewsType: BJNewsApp.BJNewsAPIEndPoint, payload: Swift.Dictionary&lt;Swift.String, Swift.String&gt;, success: (Swift.Optional&lt;Foundation.Data&gt;) -&gt; (), failure: (Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BJNewsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/embibe/Documents/My%20Projects/BJNewsApp/BJNewsApp/BJNewsApp/NetworkManager.swift"
+                  timestampString = "588757553.308183"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "37">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BJNewsApp/NetworkManager.swift"
+            timestampString = "588757553.151647"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "performRequest(forUrl:requestType:success:failure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BJNewsApp/ContentManager.swift"
+            timestampString = "588757553.151705"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "loadHighLights(forCountry:category:success:failure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
